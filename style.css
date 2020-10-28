@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-color: #F4F4F5
+}
+
+
+h1 span {
+  color: #52AA5E;
+  background-color: #D6EBD9;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: rgba(60,60,60);
+  font-size: 20px;
+}
+
+a {
+  color: rgba(40,40,40);
+  text-decoration-line: none
+}
+
+.button {
+  color: white;
+  padding: 12px;
+  background-color: #52AA5E;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+a:hover {
+  background-color: #388659;
+}
+
+@media (max-width: 1700px) {
+  .container {
+    width: 550px;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+.container {
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+}
+
+.circle {
+  border-radius: 50%
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 5px;
+  margin: 30px auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.full-stop {
+  font-size: 45px;
+  color: #52AA5E;
+  background-color: transparent;
+  padding: 0
+}
+
+ul li {
+  font-size: 30px;
+  color: rgb(150,150,150);
+}
+
+ul li:hover {
+  color: #52AA5E;
+}
