@@ -47,9 +47,9 @@ a:hover {
   }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 520px) {
   .container {
-    width: 400px;
+    width: 300px;
   }
 }
 
