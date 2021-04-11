@@ -8,21 +8,46 @@
 </head>
 <body>
 <div class="container">
+  <div class="alert">
+    <h2>This site is still a work in progress</h2>
+  </div>
   <div class="card">
     <h1><span>Hey!</span> I'm Tom<span class="full-stop">.</span></h1>
     <img class="circle" src="images/me.jpg" width="200px">
     <h2>Full Stack Developer</h2>
-    <h1>This site is still a work in progress!</h1>
-    <p>Hi, I'm Tom. Im a Full-Stack Developer with a background in IT Consulting and Business Analysis. I am a perceptive and creative  professional who is always learning. I have a positive and open-minded approach to challenges which enables me to be a proficient problem-solver.</p>
-    <a class="button" href="assets/cv.pdf">See my full CV</a>
+    <p class="p-5">Hi, I'm Tom. Im a Full-Stack Developer with a background in IT Consulting and Business Analysis. I am a perceptive and creative  professional who is always learning. I have a positive and open-minded approach to challenges which enables me to be a proficient problem-solver.</p>
+    <a class="button" href="assets/cv.pdf" target="_blank">See my full CV</a>
   </div>
 
   <div class="card">
     <h1>Projects</h1>
-    <ul class="list-inline"></ul>
-    <a class="list-inline" target="_blank" href="http://www.cadence.today">Cadence</a>
-    <a class="list-inline spaced" target="_blank" href="http://emmachambersart.herokuapp.com">Emma Chambers Art</a>
-    <a class="list-inline" target="_blank" href="https://www.swopbox.net">Swopbox</a>
+    <a class="list-inline" target="_blank" href="http://www.cadence.today">
+    <div class="innerCard">
+      <div class="projectImage" style="background-image: url('images/social-media.png');"></div>
+      <div class="description">
+        <p class="bold">Ruby on Rails, HTML, CSS, Javascript (ES6) and SQL</p>
+        <p>Cadence is a web app that helps you track time against goals. It was built from conception to completion in two weeks. It was my final project for Le Wagon coding bootcamp. Give it a spin! (it's on a free hosting service so please give it a moment to load)</p>
+      </div>
+    </div>
+    </a>
+    <a class="list-inline spaced" target="_blank" href="http://emmachambersart.herokuapp.com">
+      <div class="innerCard">
+        <div class="projectImage" style="background-image: url('images/emmachambersart.png');"></div>
+        <div class="description">
+          <p class="bold">Ruby on Rails, HTML, CSS and SQL</p>
+          <p>Emma Chambers Art was built for a client of my company Apt. The artist wanted more control over the design of her website as she was currently using SquareSpace. She was frustrated with how her artwork was often cropped and resized to fit into the style of the webpage. This website was built to put the artwork front and center</p>
+        </div>
+      </div>
+    </a>
+    <a class="list-inline" target="_blank" href="https://www.swopbox.net">
+      <div class="innerCard">
+      <div class="projectImage" style="background-image: url('images/swopbox.png');"></div>
+        <div class="description">
+          <p class="bold">Ruby on Rails, HTML, CSS, Javascript (ES6) and SQL</p>
+          <p>SwopBox is a startup that allows businesses and individuals to exchange event hospitality boxes. This web app was used as a demo to present to investors and was built in a month. None of the content is live so give it a try!</p>
+        </div>
+      </div>
+    </a>
   </div>
 
   <div class="card">
